@@ -1,0 +1,125 @@
+.container{
+    background-color: #3d596f;
+    width:720px;
+    height:865px;
+    padding: 50 120;
+    color: rgb(222, 220, 220);
+   font-family:Verdana, Tahoma, sans-serif;
+}
+.cityInput,.cityLabel,.stateLabel,.zipLabel{
+   padding-top: 3px;
+}
+.stateLabel,.zipLabel{
+    padding-top: 7px;
+}
+.pairs{
+    display: flex;
+    padding-top: 10px;
+}
+.pairSpace{
+    padding-left: 78px;
+}
+.emailSpace,.city, .zipcode{
+    padding-left: 40px;
+}
+.bodyContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.patientInfo{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom:30px;
+}
+.phoneNumber,.emailAdd,.medicalNumber,.legalName{
+    padding-bottom:15px;
+}
+.countryInput,.nameInput{
+    width:100%;
+}
+#dob{
+    line-height: 2;
+    width:250px;
+}
+#inputs{
+    width:340px;
+}
+input {
+    background-color:#3d596f ;
+    outline: none;
+    border-width: 0 0 1px;
+    border-color:white;
+    color: white;
+}
+#healthCity{
+    font-size:42px;
+    margin: 0;
+    padding: 0;
+    font-weight: bolder;
+}
+#hospital{
+    font-size:58px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-weight: bolder; 
+}
+.header{
+    justify-content: center;
+    display: flex;
+}
+.streetInput{
+    padding-top:6px;
+}
+.Vaccination{
+    font-size:38px;
+    text-align: center;
+    padding-bottom:60px;
+    padding-top: 25px;
+    padding-left: 40px;
+}
+#address{
+    padding-top:30px;
+}
+.form{
+    line-height:2.0;
+}
+img{
+    padding-bottom: 30px;
+    height:130px;
+}
+.dobInput{
+    padding-top: 3px;
+}
+.dataSpace{
+    padding-top: 15px;
+}
+.legalName label,.dateOfBirth label,.medicalNumber label,.phoneNumber label,.emailAdd label{
+    font-size: 15px;
+}
+.dobPairs{
+    display: flex;
+}
+#image2{
+  height: auto;
+  padding: 0;
+} 
+.twoHeader{
+    padding-top: 20px;
+}
+#countryFont, #stateFont, #citySuburbFont, #zipCodeFont, #streetFont{
+    font-size:13px;
+}
+
+
+
+
+
+
+    
+
+  
+
+
+

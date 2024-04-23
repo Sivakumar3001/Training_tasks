@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Check/Uncheck Box</title>
+    <link rel="stylesheet" href="Assets/css/style.css" />
+    <script src="Assets/js/index.js"></script>
+  </head> 
+  <body>
+    <form>
+      <div class="mainContainer">
+        <h1>CheckBoxes</h1>
+        <div class="checkBox">
+          <label><input type="checkbox" class="box" /><b>Checkbox1</b></label>
+        </div>
+        <div class="checkBox">
+        <label><input type="checkbox" class="box" /><b>Checkbox2</b></label>
+      </div>
+      <div class="checkBox">
+        <label><input type="checkbox" class="box" /><b>Checkbox3</b></label>
+      </div>
+      <div class="checkBox">
+        <label><input type="checkbox" class="box" /><b>Checkbox4</b> </label>
+      </div>
+      <div class="checkBox">
+        <label><input type="checkbox" class="box" /><b>Checkbox5</b></label>
+      </div>
+      <div class="buttons">
+        <input type="button" onclick="checkAll()" value="CHECK ALL">
+        <input type="reset" value="UNCHECK ALL">
+        <input type="button" onclick="reverse()" value="REVERSE">
+    </div>
+    </form>
+  </body>
+</html>

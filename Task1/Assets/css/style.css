@@ -1,0 +1,40 @@
+html,body{
+    margin: 0;
+    background-color:#949398FF;
+}
+.mainContainer h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+    color: black;
+}
+.mainContainer div{
+    display: flex;
+    justify-content:space-around;
+}
+.mainContainer{
+        height:55%;
+        width: 35%;
+        margin: 200px auto;
+        background-color:#9CC3D5FF;
+        border-radius: 20px;
+        padding: 30px;
+}
+button{
+    margin-top: 20px;
+    background-color:lightgray;
+    border-radius: 4px;
+    height: 44px;
+    font-weight: 600;
+    padding: 0 30px;
+    letter-spacing: 1px;
+    border: none;
+    border-radius:20px;
+    cursor:pointer;
+}
+#result{
+    color: black;
+    margin-top: 20px;
+    font-size: 20px;
+}

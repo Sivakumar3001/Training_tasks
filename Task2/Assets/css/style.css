@@ -1,0 +1,37 @@
+html,body{
+    margin: 0;
+    background-color:rgb(51, 50, 50);
+}
+.mainContainer h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+    color: black;
+}
+.mainContainer{
+    height:55%;
+    width: 35%;
+    margin: 200px auto;
+    background-color:rgb(233, 173, 61);
+    border-radius: 20px;
+    padding: 30px;
+  }
+.checkBox{
+    padding: 10px;
+}
+input{
+    background-color:lightgray;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border: none;
+    border-radius:20px;
+    cursor:pointer;
+    margin-left: 10px;
+}
+.buttons{
+    padding: 10px;
+    margin: 10px;
+}

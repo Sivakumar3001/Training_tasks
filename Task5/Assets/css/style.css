@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(196, 255, 251);
+}
+#submit{
+    margin-left:40%;
+    margin-top: 25px;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(3, 71, 161);
+    color: aliceblue;
+}
+#topic{
+    text-align: center;
+}
+#area{
+    margin-left:10%;
+}
+#validation{
+    margin-left: 30%;
+    color: red;
+}
+#minValue,#maxValue{
+    margin-left: 30%;
+    color:green;
+}

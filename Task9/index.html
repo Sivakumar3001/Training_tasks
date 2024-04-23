@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Display Date And Time</title>
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <script src="Assets/js/index.js"></script>
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="heading">
+            <h1> EX 9: Display Date and Time </h1>
+        </div>
+        <div class="subContainer">
+            <div class="image">
+                <img src="Assets/images/calender.PNG">
+            </div>
+            <div class="subheading">
+                <h4>Current Date & Time of Your System</h4>
+            </div>
+            <div class="buttons">
+                <button id="button1" type="button" onclick="validate()">Show</button>
+                <button id="button2" type="button" onclick="resetAll()">Clear</button>
+            </div>
+            <div class="tableFirst">
+                <table>
+                    <tr>
+                        <th>Year</th>
+                        <th>Month</th>
+                        <th>Date</th>
+                        <th>Hour</th>
+                        <th>Minute</th>
+                        <th>Seconds</th>
+                        <th>Millisec</th>
+                    </tr>
+                    <tr>
+                        <td id="year"> </td>
+                        <td id="month"> </td>
+                        <td id="date"> </td>
+                        <td id="hour"> </td>
+                        <td id="minute"> </td>
+                        <td id="seconds"> </td>
+                        <td id="milisec"> </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="istHeading">
+                <h4>GMT + 0530(Indian Standard Time)</h4>
+            </div>
+            <div class="tableSecond">
+                <table>
+                    <tr>
+                        <td>Local Date & Time</td>
+                        <td id="dateAndtime"></td>
+                    </tr>
+                    <tr>
+                        <td>UTC</td>
+                        <td id="utc"></td>
+                    </tr>
+                    <tr>
+                        <td>UTC Milliseconds</td>
+                        <td id="utcmillisec"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

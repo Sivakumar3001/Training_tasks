@@ -1,0 +1,40 @@
+html,body{
+    margin: 0;
+    background-color:#D7C49EFF;
+}
+#wrapper h2{
+    display: flex;
+    justify-content: center;
+    color: rgb(230, 226, 226);
+    padding-bottom: 20px;
+   font-size: 50px;
+}
+#wrapper div{
+    display: flex;
+    justify-content:space-around;
+}
+#wrapper{
+    height:45%;
+    width: 30%;
+    margin: 200px auto;
+    background-color:#343148FF;
+    border-radius: 20px;
+    padding: 30px;
+}
+button{
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 4px;
+    height: 44px;
+    font-weight: 600;
+    padding: 0 30px;
+    letter-spacing: 1px;
+    border: none;
+    border-radius:20px;
+    cursor: pointer;
+}
+#result,#fault{
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+}

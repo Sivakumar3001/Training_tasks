@@ -1,0 +1,10 @@
+1. Display the maximum and minimum price of the book. 
+
+2. Display the total book price for each type. 
+
+3. Find out the Publisher for the following books 
+
+   ‘Cooking with Computers: Surreptitious Balance Sheets’, 
+   ‘Silicon Valley Gastronomic Treats’, 
+   ‘Is Anger the Enemy?’, 
+   ‘Fifty Years in Buckingham Palace Kitchens’.

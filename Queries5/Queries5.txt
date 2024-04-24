@@ -1,0 +1,5 @@
+1. Display/find the given authors complete address information. [Panteley Sylvia]
+ 
+2. Display only the hire date and employee name for each employee.
+
+3. Display all the books which come under ‘Psychology’ type.

@@ -1,0 +1,7 @@
+1. Display/find the total number of Publishers in publishers table. 
+
+
+2. Display the employee name and job description of all employees with the same job as Howard. 
+
+
+3. Display the employee name and job description of all employees whose are not Managing Editor. 

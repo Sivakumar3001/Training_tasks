@@ -1,0 +1,8 @@
+1.Display the names and hire dates of  employees hired between 1991 - 1992.
+
+2.Display the names of employees without middle (minit) name.
+
+3.Display the names and hire dates of all employees with the column 
+  headers \Name" and \Start Date", in the order they were hired.
+
+4.Retrieve the names of  employees whose designation is ‘Sales Representative’.
